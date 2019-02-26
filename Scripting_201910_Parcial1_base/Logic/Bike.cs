@@ -14,7 +14,7 @@
         {
             get
             {
-                return VehicleType.None;
+                return VehicleType.Bike;
             }
         }
     }
