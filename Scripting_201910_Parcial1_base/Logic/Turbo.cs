@@ -4,6 +4,7 @@
     {
         public Turbo() : base()
         {
+           
         }
 
         public Turbo(float speedBonus) : base(speedBonus)
@@ -14,7 +15,7 @@
         {
             get
             {
-                return VehicleType.None;
+                return VehicleType.Any;
             }
         }
     }
