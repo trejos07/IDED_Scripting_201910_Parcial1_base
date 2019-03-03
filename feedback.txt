@@ -1,0 +1,12 @@
+Parcial (3.0 / 5.0)
+	* El código se entregó con errores de compilación.
+	* Math.Clamp es una función de Unity, no de C#.
+	* En Vehicle.Equip(), antes de hacer el Clamp se modifica Vehicle.baseMaxSpeed, por lo que el Clamp estaría tomando un valor que pudo haber sido alterado erróneamente.
+	* Vehicle.Equip() no equipa una parte, y por tanto Vehicle.CurrentPart = null siempre.
+	* La implementación de Part.Durability está parcial, puesto que nadie asigna un valor a Durability. Por tanto, Part.Durability = 0 siempre, al igual de SpeedBonus.
+	
+
+Bonificación (0.0 / 0.5)
+	No se presentó propuesta para la bonificación
+	
+Total: 3.0 / 5.0
